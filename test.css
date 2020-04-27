@@ -1,0 +1,31 @@
+body{
+
+background-color: #ffb6c1;
+
+}
+
+h1{
+	color: #FFC0CB;
+	font-size: 90px;
+	text-decoration: underline;
+}
+h2{
+	color: #FF69B4;
+	font-size:60px;
+}
+
+.small{
+
+font-size: 20px;
+
+}
+
+#thisisit{
+font-size: 150px;
+}
+
+span{
+font-style: italic;
+}
+
+
