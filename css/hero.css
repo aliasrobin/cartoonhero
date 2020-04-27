@@ -5,19 +5,27 @@ html, body{
 }
 
 header{
+	background-image: url('https://cdn2.vectorstock.com/i/1000x1000/10/21/cute-objects-pattern-with-pink-background-vector-13241021.jpg');
+	background-repeat: repeat;
 	background-color: #FF69B4;
+	text-shadow: 0 4px 20px pink;
 	padding: 40px;
 	text-align: center;
 }
 h1{
 	font-size: 45px; 
-	color: white;
+	background-color: white;
+	color: #FF69B4;
+	border-style: dashed;
 }
 
 h2{
+	padding:0;
+	margin: 0; 
 	background-color: white;
 	font-size: 20px;
 	color: #FF69B4;
+	border-style: dashed;
 }
 header img{
 	border-radius:150px;
@@ -25,7 +33,8 @@ header img{
 	border: 100px solid: #FFFFFF;
 }
 .content{ 
-max-width: 400px;
+border-style: double;
+max-width: 800px;
 margin: 0 auto; 
 background-color: #FEDDF3;
 padding: 0 20px;
@@ -56,6 +65,12 @@ ol{
 }
 a{
 	color: #FF69B4;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: white;
 	text-decoration: none;
 }
 
